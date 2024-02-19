@@ -32,6 +32,7 @@ def make_api_tests(input_file, output_file):
     with open(file_path, 'w') as file:
         file.write(matches[0].strip())
 
+    print("Document " + file_path + " made!")
     
 
 def main():
